@@ -11,12 +11,12 @@ Electrostatic potential parameters
 
 Grid information
     Quantum ESP File(s):
-                                      /home/karl/git/resp_w_psi4/tests/data/ethanol_1_grid_esp.dat
-                                      /home/karl/git/resp_w_psi4/tests/data/ethanol_2_grid_esp.dat
+                                      /mnt/storage/git/resp_ep/tests/data/ethanol_1_grid_esp.dat
+                                      /mnt/storage/git/resp_ep/tests/data/ethanol_2_grid_esp.dat
 
     Grid Points File(s) (# of points):
-                                      /home/karl/git/resp_w_psi4/tests/data/ethanol_1_grid.dat (520)
-                                      /home/karl/git/resp_w_psi4/tests/data/ethanol_2_grid.dat (517)
+                                      /mnt/storage/git/resp_ep/tests/data/ethanol_1_grid.dat (520)
+                                      /mnt/storage/git/resp_ep/tests/data/ethanol_2_grid.dat (517)
 
 Constraints
     Charge constraints: None

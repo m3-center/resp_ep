@@ -13,10 +13,10 @@ Electrostatic potential parameters
 
 Grid information
     Quantum ESP File(s):
-                                      /home/karl/git/resp_w_psi4/tests/data/acetic_acid_grid_esp.dat
+                                      /mnt/storage/git/resp_ep/tests/data/acetic_acid_grid_esp.dat
 
     Grid Points File(s) (# of points):
-                                      /home/karl/git/resp_w_psi4/tests/data/acetic_acid_grid.dat (534)
+                                      /mnt/storage/git/resp_ep/tests/data/acetic_acid_grid.dat (534)
 
 Constraints
     Charge constraints: None

@@ -13,10 +13,10 @@ Electrostatic potential parameters
 
 Grid information
     Quantum ESP File(s):
-                                      /home/karl/git/resp_w_psi4/tests/data/bromoethene_grid_esp.dat
+                                      /mnt/storage/git/resp_ep/tests/data/bromoethene_grid_esp.dat
 
     Grid Points File(s) (# of points):
-                                      /home/karl/git/resp_w_psi4/tests/data/bromoethene_grid.dat (611)
+                                      /mnt/storage/git/resp_ep/tests/data/bromoethene_grid.dat (611)
 
 Constraints
     Charge constraints: None
@@ -35,7 +35,7 @@ Fit
           2        H       0.15465384  0.14970713
           3        H       0.17604427  0.17055694
           4        C      -0.22786742 -0.23219228
-          5        BR     -0.08714770 -0.08681685
+          5        BR     -0.08714770 -0.08681686
           6        H       0.22695401  0.22667934
 
         Total Charge:      0.00000000  0.00000000

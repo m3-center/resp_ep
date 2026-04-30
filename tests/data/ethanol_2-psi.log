@@ -1,9 +1,9 @@
-2026-04-29:16:40:18,85 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
-2026-04-29:16:40:18,87 INFO     [psi4.driver.driver:788] Compute properties(): method=scf, basis=anonymous4d5599b0, molecule=/home/karl/git/resp_w_psi4/tests/data/ethanol_2, nre=81.45479184863332
-2026-04-29:16:40:18,580 INFO     [psi4.driver.driver:791] Return properties(): -154.06621251826496
-2026-04-29:16:40:18,674 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
-2026-04-29:16:40:18,676 INFO     [psi4.driver.driver:788] Compute properties(): method=scf, basis=anonymous88a91162, molecule=/home/karl/git/resp_w_psi4/tests/data/bromoethene, nre=144.78158692890378
-2026-04-29:16:40:19,310 INFO     [psi4.driver.driver:791] Return properties(): -2648.882549464932
-2026-04-29:16:40:19,380 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
-2026-04-29:16:40:19,382 INFO     [psi4.driver.driver:788] Compute properties(): method=scf, basis=anonymous686495c7, molecule=/home/karl/git/resp_w_psi4/tests/data/methanol, nre=40.78639520135911
-2026-04-29:16:40:19,660 INFO     [psi4.driver.driver:791] Return properties(): -115.03535414304984
+2026-04-30:09:06:04,316 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-04-30:09:06:04,317 INFO     [psi4.driver.driver:788] Compute properties(): method=scf, basis=anonymous4a38a603, molecule=/mnt/storage/git/resp_ep/tests/data/ethanol_2, nre=81.45479184863332
+2026-04-30:09:06:04,598 INFO     [psi4.driver.driver:791] Return properties(): -154.06621251818407
+2026-04-30:09:06:04,652 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-04-30:09:06:04,653 INFO     [psi4.driver.driver:788] Compute properties(): method=scf, basis=anonymous29bddb7d, molecule=/mnt/storage/git/resp_ep/tests/data/bromoethene, nre=144.78158692890378
+2026-04-30:09:06:05,71 INFO     [psi4.driver.driver:791] Return properties(): -2648.882549464044
+2026-04-30:09:06:05,118 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-04-30:09:06:05,119 INFO     [psi4.driver.driver:788] Compute properties(): method=scf, basis=anonymousda11790d, molecule=/mnt/storage/git/resp_ep/tests/data/methanol, nre=40.78639520135911
+2026-04-30:09:06:05,266 INFO     [psi4.driver.driver:791] Return properties(): -115.0353541430702
