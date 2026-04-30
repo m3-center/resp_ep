@@ -1,0 +1,48 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.500
+                                      H = 1.200
+                                      O = 1.400
+                                      X = 0.000
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       None
+    ESP basis set:                    None
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/git/resp_w_psi4/tests/data/methanol_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/git/resp_w_psi4/tests/data/methanol_grid.dat (428)
+
+Constraints
+    Charge constraints: None
+
+    Equivalent charges on atoms (group = atom numbers):
+                                      group_1 = 2 3 4
+                                      group_2 = 7 8
+
+Restraint
+    ihfree:                           True
+    resp_a:                           0.0005
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.03246335 -0.03646927
+          2        H       0.05687580  0.05658907
+          3        H       0.05687580  0.05658907
+          4        H       0.05687580  0.05658907
+          5        O      -0.34513319 -0.32640632
+          6        H       0.31430426  0.30812274
+          7        X      -0.05366756 -0.05750718
+          8        X      -0.05366756 -0.05750718
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00234     0.00234
+        RRMSE          0.14127     0.14146

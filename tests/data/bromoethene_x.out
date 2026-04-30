@@ -1,0 +1,45 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.500
+                                      H = 1.200
+                                      BR = 1.850
+                                      X = 0.000
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       None
+    ESP basis set:                    None
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/git/resp_w_psi4/tests/data/bromoethene_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/git/resp_w_psi4/tests/data/bromoethene_grid.dat (611)
+
+Constraints
+    Charge constraints: None
+
+    Equivalent charges on atoms: None
+
+Restraint
+    ihfree:                           True
+    resp_a:                           0.0005
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.43463110 -0.37318215
+          2        H       0.18159572  0.16577433
+          3        H       0.23799313  0.21990568
+          4        C       0.04765686 -0.00848194
+          5        BR     -0.28000242 -0.26039446
+          6        H       0.16289694  0.17776180
+          7        X       0.08449087  0.07861675
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00123     0.00126
+        RRMSE          0.11726     0.11965

@@ -1,0 +1,52 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.500
+                                      O = 1.400
+                                      H = 1.200
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       None
+    ESP basis set:                    None
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/git/resp_w_psi4/tests/data/ethanol_1_esp.dat
+                                      /home/karl/git/resp_w_psi4/tests/data/ethanol_2_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/git/resp_w_psi4/tests/data/ethanol_1_grid.dat (520)
+                                      /home/karl/git/resp_w_psi4/tests/data/ethanol_2_grid.dat (517)
+
+Constraints
+    Charge constraints:
+                                      Atom 3 = -0.630868
+                                      Atom 4 = 0.377965
+
+    Equivalent charges on atoms (group = atom numbers):
+                                      group_1 = 7 8 9
+                                      group_2 = 5 6
+
+Restraint
+    ihfree:                           False
+    resp_a:                           0.0010
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.26319686 -0.07985212
+          2        C       0.30501554  0.25392074
+          3        O      -0.63086800 -0.63086800
+          4        H       0.37796500  0.37796500
+          5        H      -0.01339315 -0.00771259
+          6        H      -0.01339315 -0.00771259
+          7        H       0.07929021  0.03141985
+          8        H       0.07929021  0.03141985
+          9        H       0.07929021  0.03141985
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00236     0.00245
+        RRMSE          0.16031     0.16591
