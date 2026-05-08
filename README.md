@@ -3,13 +3,13 @@
 
 **Author:** Karl N. Kirschner
 
-**Based on the work of:** [A Alenaizan, LA Burns, CD Sherrill](https://github.com/cdsgroup/resp) (Alenaizan et al., 2020)
+**Based on the work of A Alenaizan, LA Burns, and CD Sherrill**: [https://github.com/cdsgroup/resp](https://github.com/cdsgroup/resp) (Alenaizan et al., 2020)
 
 ---
 
 ## Overview
 
-This tool is a refactoring of the Python RESP code developed by Alenaizan et al. (https://github.com/cdsgroup/resp), which is a plugin for the Psi4 quantum chemistry package. This revision extends the original code by enabling PAC fitting onto virtual sites (a.k.a., extra points, dummy particles), facilitating the modeling of molecules that exhibit strongly anisotropic electrostatics (e.g., $\sigma$-holes and electron lone pairs). Additionally, a standardized configuration workflow was introduced based on `.ini` inputs, enabling straightforward reproduction of workflows and their resulting PACs. The root mean square error (RMSE) and relative root mean square error (RRMSE) metrics are also included for fit quality assessment.
+This tool is a refactoring of the Python RESP code developed by Alenaizan et al., which is a plugin for the Psi4 quantum chemistry package. This revision extends the original code by enabling PAC fitting onto virtual sites (a.k.a., extra points, dummy particles), facilitating the modeling of molecules that exhibit strongly anisotropic electrostatics (e.g., $\sigma$-holes and electron lone pairs). Additionally, a standardized configuration workflow was introduced based on `.ini` inputs, enabling straightforward reproduction of workflows and their resulting PACs. The root mean square error (RMSE) and relative root mean square error (RRMSE) metrics are also included for fit quality assessment.
 
 ## Features
 This version consolidates the workflow into an easy-to-follow pipeline:
@@ -17,7 +17,7 @@ This version consolidates the workflow into an easy-to-follow pipeline:
 - Grid and ESP generation are performed using Psi4, or can be loaded from a previous calculation.
 - PAC fitting is performed using an updated multi-center formulation that includes both nuclei and extra points as charge sites.
 - Multiple conformers can be used to generate an averaged PAC set.
-- Charge equivalency and restraints can also be specified to specific atoms.
+- Charge equivalency and restraints can also be specified for specific atoms.
 - RMSE and RRMSE metrics are computed.
 
 ## Dependencies
