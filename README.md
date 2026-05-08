@@ -50,6 +50,7 @@ The following files are included:
 - `resp_ep/tests/data`: XYZ and .ini files
 - `resp/vdw_surface.py`: van der Waals surface generation
 - `resp/stage2_helper.py`: Helper utilities for two-stage fitting
+- `resp_ep/examples`: several XYZ and .ini files, plus `molecules.py`
 
 ## References
 * [[BaylyCCK1993](https://pubs.acs.org/doi/abs/10.1021/j100142a004)] Bayly C. I., Cieplak, P., Cornell, W., Kollman, P.A. *A well-behaved electrostatic potential based method using charge restraints for deriving atomic charges: the RESP model.* *J. Phys. Chem.* **97**, 10269 (1993).
