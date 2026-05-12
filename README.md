@@ -58,3 +58,6 @@ The following files are included:
 Please cite the following articles if you use this program:
 * [[AlenaizanBS2020](https://doi.org/10.1002/qua.26035)] Alenaizan A., Burns L. A., Sherrill C. D. *Python implementation of the restrained electrostatic potential charge model.* *Int. J. Quantum Chem.* **120**, e26035 (2020).
 * [[Kirschner2026](https://doi.org/10.26434/chemrxiv.15002675/v1)] Kirschner K. N. *Extending the Python RESP Framework for Extra Point Charge Fitting.* *ChemRxiv* 04 May 2026. DOI: https://doi.org/10.26434/chemrxiv.15002675/v1
+
+## Disclaimer
+This software is provided "as is," without warranty of any kind. While we have made every effort to ensure the accuracy and reliability of the code and associated files, the authors and contributors are not responsible for any errors, data loss, or inaccuracies that may occur through its use. Users are encouraged to validate results independently, especially for research intended for publication.
