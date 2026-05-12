@@ -23,15 +23,19 @@ This version consolidates the workflow into an easy-to-follow pipeline:
 ## Dependencies
 
 ### Python standard library
+The code was validated using Python 3.12.1.
 - `configparser`
 - `copy`
 - `os`
 - `sys`
 
-### Third-party
-- `numpy`
-- `psi4` (https://psicode.org)
-- `pytest` (optional; for running tests)
+### Third-party libraries
+Validated using the versions specified in parentheses.
+- `NumPy` (2.2.4)
+- `Psi4` (1.9.1; https://psicode.org)
+- `Pytest` (8.3.5)
+- `Sphinx` (9.1.0)
+- `sphinx-automodapi` (0.22.0)
 
 ## Code
 The following files are included:
