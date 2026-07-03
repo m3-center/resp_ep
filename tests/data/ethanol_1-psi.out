@@ -31,16 +31,16 @@
     -----------------------------------------------------------------------
 
 
-    Psi4 started on: Thursday, 30 April 2026 09:06AM
+    Psi4 started on: Friday, 19 June 2026 09:51AM
 
-    Process ID: 9759
+    Process ID: 11884
     Host:       eifel
     PSIDATADIR: /home/karl/miniconda3/envs/psi4/share/psi4
     Memory:     500.0 MiB
     Threads:    1
     
 *** tstart() called on eifel
-*** at Thu Apr 30 09:06:04 2026
+*** at Fri Jun 19 09:51:26 2026
 
    => Libint2 <=
 
@@ -50,7 +50,7 @@
     Solid Harmonics ordering:            Gaussian
    => Loading Basis Set <=
 
-    Name: ANONYMOUS07C10FE1
+    Name: ANONYMOUSAD021AF2
     Role: ORBITAL
     Keyword: BASIS
     atoms 1-2 entry C          line   111 file /home/karl/miniconda3/envs/psi4/share/psi4/basis/6-31gs.gbs 
@@ -110,7 +110,7 @@
 
   ==> Primary Basis <==
 
-  Basis Set: ANONYMOUS07C10FE1
+  Basis Set: ANONYMOUSAD021AF2
     Blend: 6-31G*
     Number of shells: 30
     Number of basis functions: 57
@@ -120,7 +120,7 @@
 
    => Loading Basis Set <=
 
-    Name: (ANONYMOUS07C10FE1 AUX)
+    Name: (ANONYMOUSAD021AF2 AUX)
     Role: JKFIT
     Keyword: DF_BASIS_SCF
     atoms 1-2 entry C          line   121 file /home/karl/miniconda3/envs/psi4/share/psi4/basis/cc-pvdz-jkfit.gbs 
@@ -146,7 +146,7 @@
 
    => Auxiliary Basis Set <=
 
-  Basis Set: (ANONYMOUS07C10FE1 AUX)
+  Basis Set: (ANONYMOUSAD021AF2 AUX)
     Blend: CC-PVDZ-JKFIT
     Number of shells: 126
     Number of basis functions: 393
@@ -256,12 +256,12 @@ Properties computed using the SCF density matrix
 
  Electrostatic potential to be computed on the grid and written to grid_esp.dat
 
-*** tstop() called on eifel at Thu Apr 30 09:06:04 2026
+*** tstop() called on eifel at Fri Jun 19 09:51:26 2026
 Module time:
-	user time   =       0.26 seconds =       0.00 minutes
-	system time =       0.01 seconds =       0.00 minutes
+	user time   =       0.27 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       1.07 seconds =       0.02 minutes
-	system time =       0.08 seconds =       0.00 minutes
+	user time   =       1.06 seconds =       0.02 minutes
+	system time =       0.07 seconds =       0.00 minutes
 	total time  =          1 seconds =       0.02 minutes

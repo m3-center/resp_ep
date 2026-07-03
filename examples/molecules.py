@@ -11,7 +11,7 @@ else:
     sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
     import driver as resp
 
-    molecule_inputs = ['methanol.ini', 'phosphate.ini', 'dmso_opt_c1_a.ini', 'dmso_opt_c1_b.ini',
+    molecule_inputs = ['phosphate.ini', 'dmso_opt_c1_a.ini', 'dmso_opt_c1_b.ini',
                        '2_methylpropanal_stage_1.ini', '2_methylpropanal_stage_2.ini'
                       ]
 
