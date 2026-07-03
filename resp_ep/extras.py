@@ -50,12 +50,13 @@ def unit_vector(input_vector: np.ndarray, *, atol: float = 1e-12) -> np.ndarray:
     """
     if not isinstance(input_vector, np.ndarray):
         raise TypeError("Input vector is not a numpy array.")
-    vector = np.asarray(input_vector, dtype=float).ravel()
-    n = np.linalg.norm(vector)
-    if n <= atol:
-        raise ValueError("Cannot normalize a near-zero vector")
-    return vector / n
-       
+    else:
+        vector = np.asarray(input_vector, dtype=float).ravel()
+        n = np.linalg.norm(vector)
+        if n <= atol:
+            raise ValueError("Cannot normalize a near-zero vector.")
+        return vector / n
+
 
 def add_sigma_hole(molecule: str,
                    atom_pairs: list,
@@ -142,7 +143,7 @@ def add_lone_pairs(molecule: str,
                    out_suffix: str = "_x",
                    ep_label: str = "x",
                    work_dir: str = "./"
-                ):
+                  ):
     """ Append lone-pair extra point sites (two points per center) to an XYZ file.
 
         Each entry in `lp_specs` defines a central atom (1-indexed) and either:
@@ -181,9 +182,9 @@ def add_lone_pairs(molecule: str,
     if not isinstance(molecule, str):
         raise TypeError('The parameter passed molecule is not a string.')
     elif not isinstance(lp_distance, (int, float)):
-        raise TypeError("lp_distance must be a number")
+        raise TypeError("The lp_distance must be a number.")
     elif not isinstance(lp_angle_deg, (int, float)):
-        raise TypeError("lp_angle_deg must be a number")
+        raise TypeError("The lp_angle_deg must be a number.")
     else:
         lp_distance = float(lp_distance)
         half_angle = np.deg2rad(float(lp_angle_deg)) / 2.0
@@ -205,7 +206,7 @@ def add_lone_pairs(molecule: str,
             c = coords[spec["center"] - 1]
             neigh = spec.get("neighbors", [])
             if len(neigh) not in (1, 2):
-                raise ValueError("neighbors must have length 1 or 2")
+                raise ValueError("The neighbors must have length 1 or 2.")
 
             n1 = coords[neigh[0] - 1]
             u1 = unit_vector(n1 - c)
@@ -213,7 +214,7 @@ def add_lone_pairs(molecule: str,
             if len(neigh) == 2:
                 assumed_mode = spec.get("mode", mode)  # per-spec override
                 if assumed_mode not in {"out_of_plane", "in_plane"}:
-                    raise ValueError("mode must be 'out_of_plane' or 'in_plane'")
+                    raise ValueError("The mode must be 'out_of_plane' or 'in_plane'.")
 
                 n2 = coords[neigh[1] - 1]
                 u2 = unit_vector(n2 - c)
@@ -221,13 +222,13 @@ def add_lone_pairs(molecule: str,
                 # bisector points between substituents; EPs go opposite
                 bis = u1 + u2
                 if np.linalg.norm(bis) == 0.0:
-                    raise ValueError("Opposite bonds: cannot define bisector")
+                    raise ValueError("Opposite bonds: cannot define bisector.")
                 b = -unit_vector(bis)
 
                 # plane normal
                 n = np.cross(u1, u2)
                 if np.linalg.norm(n) == 0.0:
-                    raise ValueError("Colinear neighbors: cannot define plane normal")
+                    raise ValueError("Colinear neighbors: cannot define plane normal.")
                 n_hat = unit_vector(n)
 
                 if assumed_mode == "in_plane":
@@ -240,17 +241,17 @@ def add_lone_pairs(molecule: str,
                     d1 = np.cos(half_angle) * b + np.sin(half_angle) * n_hat
                     d2 = np.cos(half_angle) * b - np.sin(half_angle) * n_hat
                 else:
-                    raise ValueError("mode must be 'out_of_plane' or 'in_plane'")
+                    raise ValueError("The mode must be 'out_of_plane' or 'in_plane'.")
             else:
                 if "plane_atom" not in spec:
-                    raise ValueError("One-neighbor mode requires plane_atom")
+                    raise ValueError("The one-neighbor mode requires a plane_atom.")
 
                 p = coords[spec["plane_atom"] - 1]
                 u_plane = p - c
 
                 n = np.cross(u1, u_plane)
                 if np.linalg.norm(n) == 0.0:
-                    raise ValueError("Cannot define plane: center, neighbor, plane_atom are colinear")
+                    raise ValueError("Cannot define plane: center, neighbor, plane_atom are colinear.")
                 n_hat = unit_vector(n)
 
                 b = -u1
