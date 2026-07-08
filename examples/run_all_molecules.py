@@ -14,8 +14,6 @@ else:
                      '2_methylpropanal',
                      'acetic_acid',
                      'dmso',
-                     'methanol',
-                     'methanol/multiple_orientations',
                      'phosphate',
                     ]
 
