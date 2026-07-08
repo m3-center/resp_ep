@@ -17,10 +17,11 @@ This tool is a refactoring of the Python RESP code developed by Alenaizan et al.
 - **Automated Extra Point Placement:** Includes scripts to dynamically calculate and append $\sigma$-hole or lone-pair extra points (EP) directly onto standard XYZ files.
 - **Easy Molecule Management:** Molecules are represented using simple human-readable standard XYZ format, with built-in XYZ parsing and writing utilities.
 - **Flexible Fitting:** Multi-center formulation that includes both nuclei and extra points as charge sites.
-- **Averaged Charges:** Support for using multiple conformers or orientations to generate averaged charge sets.
+- **Averaged Charges:** Support for using multiple conformers or orientations (Dupradeau et al.) to generate averaged charge sets.
 - **Equivalency & Restraints:** Enforce charge equivalency and chemical constraints on specific atom groups.
 - **Clean Configuration:** Molecular structures and fitting constraints are managed entirely through explicit `.ini` and XYZ files.
-- **Validation Metrics:** Built-in calculation of RMSE and RRMSE metrics to evaluate fit quality.
+- **Quality Metrics:** Built-in calculation of RMSE and RRMSE metrics to evaluate fit quality.
+- **vdW Radii Set Selection:** Supports both the legacy vdW radii parameters used in the original formulations and the radii set developed by Jorge Charry and Alexandre Tkatchenko.
 
 ## Dependencies
 
@@ -78,6 +79,8 @@ The following files are included:
 
 ## References
 * [[BaylyCCK1993](https://pubs.acs.org/doi/abs/10.1021/j100142a004)] Bayly C. I., Cieplak, P., Cornell, W., Kollman, P.A. *A well-behaved electrostatic potential based method using charge restraints for deriving atomic charges: the RESP model.* *J. Phys. Chem.* **97**, 10269 (1993).
+* [[DupradeauPZSLGLRC2010](https://doi.org/10.1039/c0cp00111b)] Dupradeau, F.Y., Pigache, A., Zaffran, T., Savineau, C., Lelong, R., Grivel, N., Lelong, D., Rosanski, W. and Cieplak, P. *The RED. Tools: Advances in RESP and ESP charge derivation and force field library building.* *Phys. Chem. Chem. Phys.* **12**, 7821 (2010).
+* [[CharryT20024](https://doi.org/10.1021/acs.jctc.4c00784)] Charry, J. and Tkatchenko, A. *Van der Waals radii of free and bonded atoms from Hydrogen (Z=1) to Oganesson (Z=118).* *J. Chem. Theory Comput* **20**, 7469 (2024).
 
 Please cite the following articles if you use this program:
 * [[AlenaizanBS2020](https://doi.org/10.1002/qua.26035)] Alenaizan A., Burns L. A., Sherrill C. D. *Python implementation of the restrained electrostatic potential charge model.* *Int. J. Quantum Chem.* **120**, e26035 (2020).
