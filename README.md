@@ -27,6 +27,7 @@ This tool is a refactoring of the Python RESP code developed by Alenaizan et al.
 
 ### Python standard library
 The code was validated using Python 3.12.13.
+- configparser
 - `copy`
 - `os`
 - `sys`
