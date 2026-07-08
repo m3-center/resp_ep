@@ -1,0 +1,14 @@
+name: resp_ep
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - psi4
+  - numpy
+  - scipy
+  - pytest
+  - jupyter
+  - pip
+  - pip:
+    - -e .

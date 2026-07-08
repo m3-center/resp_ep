@@ -1,0 +1,57 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.500
+                                      H = 1.200
+                                      O = 1.400
+                                      X = 0.000
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       None
+    ESP basis set:                    None
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/sciebo/resp_ep/examples/acetic_acid/acetic_acid_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/sciebo/resp_ep/examples/acetic_acid/acetic_acid_grid.dat (534)
+
+Constraints
+    Charge constraints:
+                                      Atom 5 = 0.55760227
+                                      Atom 6 = -0.11425632
+                                      Atom 7 = 0.37613622
+                                      Atom 8 = -0.09629322
+
+    Equivalent charges on atoms (group = atom numbers):
+                                      group_1 = 2 3 4
+                                      group_2 = 9 10
+                                      group_3 = 11 12
+
+Restraint
+    ihfree:                           True
+    resp_a:                           0.0010
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.28116433 -0.20960098
+          2        H       0.10517590  0.08457628
+          3        H       0.10517590  0.08457628
+          4        H       0.10517590  0.08457628
+          5        C       0.55760227  0.55760227
+          6        O      -0.11425632 -0.11425632
+          7        H       0.37613622  0.37613622
+          8        O      -0.09629322 -0.09629322
+          9        X      -0.18559092 -0.18759426
+         10        X      -0.18559092 -0.18759426
+         11        X      -0.19318525 -0.19606415
+         12        X      -0.19318525 -0.19606415
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00154     0.00157
+        RRMSE          0.09802     0.10018

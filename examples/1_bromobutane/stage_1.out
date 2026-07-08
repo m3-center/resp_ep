@@ -1,0 +1,55 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.500
+                                      H = 1.200
+                                      BR = 1.850
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       hf
+    ESP basis set:
+                                      assign H 6-31G*
+                                      assign C 6-31G*
+                                      assign O 6-31G*
+                                      assign Br 6-31G*
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/1_bromobutane_conf1_grid_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/1_bromobutane_conf1_grid.dat (827)
+
+Constraints
+    Charge constraints: None
+
+    Equivalent charges on atoms: None
+
+Restraint
+    ihfree:                           True
+    resp_a:                           0.0005
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.33242496 -0.17111784
+          2        H       0.08601543  0.04333596
+          3        H       0.06997556  0.03623897
+          4        H       0.07010028  0.03710588
+          5        C       0.19692718  0.09735144
+          6        H      -0.03641484 -0.01063565
+          7        H      -0.03304323 -0.00799172
+          8        C       0.20577482  0.10467790
+          9        H      -0.00697896  0.01832719
+         10        H      -0.00491781  0.01921974
+         11        C      -0.39449585 -0.27090195
+         12        H       0.17837064  0.14990764
+         13        H       0.18103166  0.15214466
+         14        BR     -0.17991992 -0.19766223
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00234     0.00239
+        RRMSE          0.20950     0.21387

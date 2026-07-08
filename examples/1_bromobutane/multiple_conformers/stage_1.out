@@ -1,0 +1,57 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.500
+                                      H = 1.200
+                                      BR = 1.850
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       hf
+    ESP basis set:
+                                      assign H 6-31G*
+                                      assign C 6-31G*
+                                      assign O 6-31G*
+                                      assign Br 6-31G*
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_conformers/1_bromobutane_conf1_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_conformers/1_bromobutane_conf2_grid_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_conformers/1_bromobutane_conf1_grid.dat (827)
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_conformers/1_bromobutane_conf2_grid.dat (831)
+
+Constraints
+    Charge constraints: None
+
+    Equivalent charges on atoms: None
+
+Restraint
+    ihfree:                           True
+    resp_a:                           0.0005
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.21692973 -0.10194718
+          2        H       0.05310231  0.02383549
+          3        H       0.04443919  0.02065372
+          4        H       0.05237358  0.02843559
+          5        C       0.17071339  0.08239268
+          6        H      -0.04024544 -0.01523791
+          7        H      -0.03255591 -0.00853975
+          8        C       0.14001128  0.06892159
+          9        H       0.00123812  0.02096242
+         10        H      -0.00482806  0.01567109
+         11        C      -0.28478804 -0.19885267
+         12        H       0.15390330  0.13332780
+         13        H       0.15903119  0.13844189
+         14        BR     -0.19546518 -0.20806479
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00244     0.00247
+        RRMSE          0.21859     0.22127

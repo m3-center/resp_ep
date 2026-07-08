@@ -1,0 +1,53 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.500
+                                      H = 1.200
+                                      BR = 1.850
+                                      X = 0.000
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       None
+    ESP basis set:                    None
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/1_bromobutane_conf1_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/1_bromobutane_conf1_grid.dat (827)
+
+Constraints
+    Charge constraints: None
+
+    Equivalent charges on atoms: None
+
+Restraint
+    ihfree:                           True
+    resp_a:                           0.0005
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.20873839 -0.08867396
+          2        H       0.05701638  0.03015016
+          3        H       0.04559578  0.01714694
+          4        H       0.04613329  0.01786734
+          5        C       0.14840541  0.04484224
+          6        H      -0.03149664 -0.01075288
+          7        H      -0.02921672 -0.00875844
+          8        C      -0.05771156  0.01295477
+          9        H       0.04630090  0.03830745
+         10        H       0.04809679  0.03985391
+         11        C       0.14073926  0.03814919
+         12        H       0.06185963  0.08965712
+         13        H       0.06288250  0.09084253
+         14        BR     -0.44113477 -0.41417221
+         15        X       0.11126815  0.10258585
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00157     0.00160
+        RRMSE          0.14054     0.14364

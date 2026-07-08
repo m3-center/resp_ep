@@ -1,0 +1,75 @@
+2026-07-08:13:51:49,63 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'function_kwargs': {}}
+2026-07-08:13:51:49,64 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymous0f55d2ee, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/1_bromobutane_conf1, nre=309.6959101304513
+2026-07-08:13:51:50,652 INFO     [psi4.driver.driver:799] Return properties(): -2728.151735038611
+2026-07-08:13:51:50,905 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:51:50,906 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymousabae5938, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_a, nre=309.6959101304513
+2026-07-08:13:51:52,303 INFO     [psi4.driver.driver:799] Return properties(): -2728.151735038611
+2026-07-08:13:51:52,369 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:51:52,370 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymous3cb96285, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_b, nre=309.69591013045135
+2026-07-08:13:51:53,772 INFO     [psi4.driver.driver:799] Return properties(): -2728.151735055216
+2026-07-08:13:51:53,837 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:51:53,838 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymousbc6079e1, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_c, nre=309.69591013045135
+2026-07-08:13:51:55,236 INFO     [psi4.driver.driver:799] Return properties(): -2728.1517350466243
+2026-07-08:13:51:55,303 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:51:55,304 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymousa95f8295, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_d, nre=309.6959101304513
+2026-07-08:13:51:56,696 INFO     [psi4.driver.driver:799] Return properties(): -2728.151735052488
+2026-07-08:13:51:56,761 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:51:56,762 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymous33db99ad, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_a, nre=313.8064810699072
+2026-07-08:13:51:58,171 INFO     [psi4.driver.driver:799] Return properties(): -2728.15013657078
+2026-07-08:13:51:58,237 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:51:58,238 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymousbb771420, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_b, nre=313.8064810699072
+2026-07-08:13:51:59,639 INFO     [psi4.driver.driver:799] Return properties(): -2728.1501365646704
+2026-07-08:13:51:59,705 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:51:59,706 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymousae2ba481, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_c, nre=313.80648106990725
+2026-07-08:13:52:01,113 INFO     [psi4.driver.driver:799] Return properties(): -2728.1501365591416
+2026-07-08:13:52:01,179 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:01,180 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymousc730e651, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_d, nre=313.8064810699072
+2026-07-08:13:52:02,597 INFO     [psi4.driver.driver:799] Return properties(): -2728.1501365684862
+2026-07-08:13:52:02,991 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:02,992 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymousa5640649, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_conformers/1_bromobutane_conf1, nre=309.6959101304513
+2026-07-08:13:52:04,393 INFO     [psi4.driver.driver:799] Return properties(): -2728.151735038611
+2026-07-08:13:52:04,459 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:04,460 INFO     [psi4.driver.driver:796] Compute properties(): method=hf, basis=anonymous3c63f6d7, molecule=/home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_conformers/1_bromobutane_conf2, nre=313.8064810699072
+2026-07-08:13:52:05,855 INFO     [psi4.driver.driver:799] Return properties(): -2728.15013657078
+2026-07-08:13:52:05,986 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:05,987 INFO     [psi4.driver.driver:796] Compute properties(): method=scf, basis=anonymousd73fcb1d, molecule=/home/karl/sciebo/resp_ep/examples/2_methylpropanal/2_methylpropanal_1, nre=177.95829648271913
+2026-07-08:13:52:06,713 INFO     [psi4.driver.driver:799] Return properties(): -230.98675438212814
+2026-07-08:13:52:06,765 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:06,766 INFO     [psi4.driver.driver:796] Compute properties(): method=scf, basis=anonymous771d11db, molecule=/home/karl/sciebo/resp_ep/examples/2_methylpropanal/2_methylpropanal_2, nre=176.31182827256825
+2026-07-08:13:52:07,498 INFO     [psi4.driver.driver:799] Return properties(): -230.9855654767579
+2026-07-08:13:52:07,551 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:07,552 INFO     [psi4.driver.driver:796] Compute properties(): method=scf, basis=anonymous821a5e62, molecule=/home/karl/sciebo/resp_ep/examples/2_methylpropanal/2_methylpropanal_3, nre=177.95829644236707
+2026-07-08:13:52:08,285 INFO     [psi4.driver.driver:799] Return properties(): -230.98675438149172
+2026-07-08:13:52:08,338 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:08,339 INFO     [psi4.driver.driver:796] Compute properties(): method=scf, basis=anonymous769467a6, molecule=/home/karl/sciebo/resp_ep/examples/2_methylpropanal/2_methylpropanal_4, nre=177.9582966257143
+2026-07-08:13:52:09,64 INFO     [psi4.driver.driver:799] Return properties(): -230.9867543817926
+2026-07-08:13:52:09,117 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:09,118 INFO     [psi4.driver.driver:796] Compute properties(): method=scf, basis=anonymousbda60f07, molecule=/home/karl/sciebo/resp_ep/examples/2_methylpropanal/2_methylpropanal_5, nre=176.31182825238855
+2026-07-08:13:52:09,846 INFO     [psi4.driver.driver:799] Return properties(): -230.98556547635886
+2026-07-08:13:52:09,899 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:09,900 INFO     [psi4.driver.driver:796] Compute properties(): method=scf, basis=anonymous7bda9d39, molecule=/home/karl/sciebo/resp_ep/examples/2_methylpropanal/2_methylpropanal_6, nre=176.31182815637808
+2026-07-08:13:52:10,630 INFO     [psi4.driver.driver:799] Return properties(): -230.9855654766073
+2026-07-08:13:52:10,763 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:10,764 INFO     [psi4.driver.driver:796] Compute properties(): method=b3lyp, basis=anonymous15ec4a06, molecule=/home/karl/sciebo/resp_ep/examples/acetic_acid/acetic_acid, nre=122.45633181261483
+2026-07-08:13:52:15,329 INFO     [psi4.driver.driver:799] Return properties(): -229.16326125667237
+2026-07-08:13:52:15,388 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:15,389 INFO     [psi4.driver.driver:796] Compute properties(): method=scf, basis=anonymous05987320, molecule=/home/karl/sciebo/resp_ep/examples/dmso/dmso, nre=185.03691879250195
+2026-07-08:13:52:15,884 INFO     [psi4.driver.driver:799] Return properties(): -551.5368633015909
+2026-07-08:13:52:15,926 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:15,928 INFO     [psi4.driver.driver:796] Compute properties(): method=b3lyp, basis=anonymous159bef38, molecule=/home/karl/sciebo/resp_ep/examples/methanol/methanol, nre=40.21377670496289
+2026-07-08:13:52:17,442 INFO     [psi4.driver.driver:799] Return properties(): -115.76495270108344
+2026-07-08:13:52:17,475 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:17,477 INFO     [psi4.driver.driver:796] Compute properties(): method=b3lyp, basis=anonymous13f50116, molecule=/home/karl/sciebo/resp_ep/examples/methanol/multiple_orientations/methanol_a, nre=40.21377670496289
+2026-07-08:13:52:18,987 INFO     [psi4.driver.driver:799] Return properties(): -115.76495270108344
+2026-07-08:13:52:19,13 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:19,14 INFO     [psi4.driver.driver:796] Compute properties(): method=b3lyp, basis=anonymous7792bc97, molecule=/home/karl/sciebo/resp_ep/examples/methanol/multiple_orientations/methanol_b, nre=40.21377670496288
+2026-07-08:13:52:20,543 INFO     [psi4.driver.driver:799] Return properties(): -115.76495270106703
+2026-07-08:13:52:20,569 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:20,570 INFO     [psi4.driver.driver:796] Compute properties(): method=b3lyp, basis=anonymouse8f5214e, molecule=/home/karl/sciebo/resp_ep/examples/methanol/multiple_orientations/methanol_c, nre=40.21377670496289
+2026-07-08:13:52:22,91 INFO     [psi4.driver.driver:799] Return properties(): -115.76495270109879
+2026-07-08:13:52:22,117 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:22,118 INFO     [psi4.driver.driver:796] Compute properties(): method=b3lyp, basis=anonymous9195532b, molecule=/home/karl/sciebo/resp_ep/examples/methanol/multiple_orientations/methanol_d, nre=40.21377670496288
+2026-07-08:13:52:23,632 INFO     [psi4.driver.driver:799] Return properties(): -115.76495270105141
+2026-07-08:13:52:23,695 INFO     [psi4.driver.task_planner:259] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
+2026-07-08:13:52:23,696 INFO     [psi4.driver.driver:796] Compute properties(): method=scf, basis=anonymousdb49c4d7, molecule=/home/karl/sciebo/resp_ep/examples/phosphate/phosphate, nre=375.35511803036627
+2026-07-08:13:52:24,680 INFO     [psi4.driver.driver:799] Return properties(): -680.9821407574121

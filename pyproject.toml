@@ -1,0 +1,19 @@
+# ./pyproject.toml
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resp_ep"
+version = "0.2.0"
+description = "Restrained Electrostatic Potential Charges with Extra Points"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy",
+                "scipy"]
+
+[project.optional-dependencies]
+psi4 = ["psi4"]
+test = ["pytest"]
+dev = ["sphinx",
+       "jupyter"]

@@ -1,0 +1,54 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.910
+                                      H = 1.675
+                                      O = 1.715
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       b3lyp
+    ESP basis set:
+                                      assign H 6-311++G**
+                                      assign C 6-311++G**
+                                      assign O 6-311++G**
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/sciebo/resp_ep/examples/multiple_orientations/acetic_acid_a_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/multiple_orientations/acetic_acid_b_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/multiple_orientations/acetic_acid_c_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/multiple_orientations/acetic_acid_d_grid_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/sciebo/resp_ep/examples/multiple_orientations/acetic_acid_a_grid.dat (773)
+                                      /home/karl/sciebo/resp_ep/examples/multiple_orientations/acetic_acid_b_grid.dat (772)
+                                      /home/karl/sciebo/resp_ep/examples/multiple_orientations/acetic_acid_c_grid.dat (763)
+                                      /home/karl/sciebo/resp_ep/examples/multiple_orientations/acetic_acid_d_grid.dat (774)
+
+Constraints
+    Charge constraints: None
+
+    Equivalent charges on atoms: None
+
+Restraint
+    ihfree:                           True
+    resp_a:                           0.0005
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.49582840 -0.04727466
+          2        H       0.15366365  0.04434913
+          3        H       0.15365356  0.04430792
+          4        H       0.14180625  0.02500008
+          5        C       0.84447998  0.65757611
+          6        O      -0.63974766 -0.61403286
+          7        H       0.43247258  0.43837866
+          8        O      -0.59049997 -0.54830439
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00049     0.00072
+        RRMSE          0.05028     0.07474

@@ -13,10 +13,10 @@ Electrostatic potential parameters
 
 Grid information
     Quantum ESP File(s):
-                                      /mnt/storage/git/resp_ep/tests/data/bromoethene_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/tests/data/bromoethene_grid_esp.dat
 
     Grid Points File(s) (# of points):
-                                      /mnt/storage/git/resp_ep/tests/data/bromoethene_grid.dat (611)
+                                      /home/karl/sciebo/resp_ep/tests/data/bromoethene_grid.dat (611)
 
 Constraints
     Charge constraints: None

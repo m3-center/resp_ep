@@ -1,3 +1,0 @@
-2026-06-19:09:51:27,609 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'SCF__INTS_TOLERANCE': 1e-12, 'function_kwargs': {}}
-2026-06-19:09:51:27,610 INFO     [psi4.driver.driver:788] Compute properties(): method=scf, basis=anonymous7e42d506, molecule=/mnt/storage/git/resp_ep/tests/data/methanol, nre=40.78639520135911
-2026-06-19:09:51:27,755 INFO     [psi4.driver.driver:791] Return properties(): -115.0353541430702

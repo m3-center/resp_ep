@@ -1,0 +1,69 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.500
+                                      H = 1.200
+                                      BR = 1.850
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       hf
+    ESP basis set:
+                                      assign H 6-31G*
+                                      assign C 6-31G*
+                                      assign O 6-31G*
+                                      assign Br 6-31G*
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_a_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_b_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_c_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_d_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_a_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_b_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_c_grid_esp.dat
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_d_grid_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_a_grid.dat (827)
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_b_grid.dat (825)
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_c_grid.dat (824)
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf1_d_grid.dat (828)
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_a_grid.dat (831)
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_b_grid.dat (836)
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_c_grid.dat (827)
+                                      /home/karl/sciebo/resp_ep/examples/1_bromobutane/multiple_orientations/1_bromobutane_conf2_d_grid.dat (835)
+
+Constraints
+    Charge constraints: None
+
+    Equivalent charges on atoms: None
+
+Restraint
+    ihfree:                           True
+    resp_a:                           0.0005
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.22183598 -0.10616750
+          2        H       0.05368971  0.02419036
+          3        H       0.04527165  0.02133991
+          4        H       0.05334524  0.02941469
+          5        C       0.17780189  0.08869882
+          6        H      -0.04130061 -0.01595221
+          7        H      -0.03378158 -0.00947288
+          8        C       0.14452595  0.07072271
+          9        H       0.00286806  0.02288410
+         10        H      -0.00451990  0.01632279
+         11        C      -0.32281258 -0.23001468
+         12        H       0.16595666  0.14334459
+         13        H       0.16995996  0.14745813
+         14        BR     -0.18916848 -0.20276883
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00241     0.00245
+        RRMSE          0.21600     0.21887

@@ -1,0 +1,50 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      C = 1.500
+                                      H = 1.200
+                                      O = 1.400
+                                      X = 0.000
+    VDW scale factors:                1.4 1.6 1.8 2.0
+    VDW point density:                1.0
+    ESP method:                       None
+    ESP basis set:                    None
+
+Grid information
+    Quantum ESP File(s):
+                                      /home/karl/sciebo/resp_ep/examples/acetic_acid/acetic_acid_esp.dat
+
+    Grid Points File(s) (# of points):
+                                      /home/karl/sciebo/resp_ep/examples/acetic_acid/acetic_acid_grid.dat (534)
+
+Constraints
+    Charge constraints: None
+
+    Equivalent charges on atoms: None
+
+Restraint
+    ihfree:                           True
+    resp_a:                           0.0005
+    resp_b:                           0.1000
+
+Fit
+    Electrostatic Potential Charges:
+        Center  Symbol        ESP         RESP        
+          1        C      -0.51697760 -0.26460761
+          2        H       0.16305051  0.10676230
+          3        H       0.16305051  0.10676230
+          4        H       0.14048066  0.08279762
+          5        C       0.82052479  0.55760227
+          6        O      -0.73952167 -0.11425632
+          7        H       0.44845275  0.37613622
+          8        O      -0.36951878 -0.09629322
+          9        X       0.03900061 -0.18684775
+         10        X       0.03900061 -0.18684775
+         11        X      -0.07238694 -0.15998799
+         12        X      -0.11515544 -0.22122008
+
+        Total Charge:      0.00000000  0.00000000
+
+    Fitting Statistics:
+        Metric             ESP        RESP
+        RMSE           0.00118     0.00139
+        RRMSE          0.07524     0.08886

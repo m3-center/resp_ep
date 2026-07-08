@@ -1,0 +1,23 @@
+ acetic acid
+ &cntrl
+  nmol = 1,
+  iqopt = 1,
+  ihfree = 1,
+  qwt = 0.0005,
+  ioutopt = 1,
+  ipol = 0,
+  ipermdip = 0
+ &end
+  1.0
+ acetic_acid
+    0    8
+    6    0
+    1    0
+    1    0
+    1    0
+    6    0
+    8    0
+    1    0
+    8    0
+
+

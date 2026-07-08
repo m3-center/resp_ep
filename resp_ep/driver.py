@@ -293,6 +293,9 @@ def parse_ini(input_ini: str) -> dict:
             elif key in ['vdw_scale_factors', 'weight']:
                 flags_dict[key] = [float(i.strip()) for i in processed_value.split(',')]
 
+            elif key == 'vdw_radii_set':
+                flags_dict[key] = processed_value.strip()
+
             elif key == 'vdw_radii':
                 parsed_radii = {}
                 for item_str in processed_value.split(','):
@@ -446,13 +449,16 @@ def resp(input_ini) -> list:
 
             data, conf = read_xyz(infile=flags_dict['input_files'][conf_n], data_dict=data)
 
+            radii_set_name = flags_dict.get('vdw_radii_set')  ## NEW
+            if not radii_set_name:
+                radii_set_name = 'legacy'
+
             vdw_radii = {}  # units: Angstrom
             for element in data['symbols']:
-                if element in flags_dict['vdw_radii']:
+                if flags_dict.get('vdw_radii') and element in flags_dict['vdw_radii']:
                     vdw_radii[element] = flags_dict['vdw_radii'][element]
                 else:
-                    # use built-in vdw_radii
-                    vdw_radii[element] = vdw_surface.vdw_radii(element=element)
+                    vdw_radii[element] = vdw_surface.vdw_radii(element=element, radii_set=radii_set_name)
 
             data['vdw_radii'] = vdw_radii
 

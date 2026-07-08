@@ -1,6 +1,89 @@
+import copy
 import os
 
 import numpy as np
+
+
+def parse_xyz(filepath: str):
+    """ Parses an XYZ file and returns atom names and coordinates.
+
+        Args:
+            filepath: The path to the XYZ file.
+
+        Returns:
+            tuple: A tuple containing:
+                - list: A list of atom names (strings).
+                - numpy.ndarray: A 2D NumPy array of coordinates (N x 3), where N is the number of atoms.
+    """
+    if not os.path.exists(filepath):
+        raise ValueError(f'File not found: {filepath}')
+
+    atom_names = []
+    coords = []
+
+    with open(filepath, 'r') as f:
+        lines = f.readlines()
+
+        if len(lines) < 2:
+            raise ValueError(f"XYZ file '{filepath}' is too short. Expected at least 2 lines (num_atoms, comment).")
+
+        try:
+            num_atoms = int(lines[0].strip())
+        except ValueError:
+            raise ValueError(f"Could not parse number of atoms from first line of '{filepath}'.")
+
+        if len(lines) < num_atoms + 2:
+            raise ValueError(f"Number of atom lines ({len(lines) - 2}) in '{filepath}' does not match declared number of atoms ({num_atoms}).")
+
+        for i in range(2, num_atoms + 2): # Start from the third line (index 2)
+            parts = lines[i].strip().split()
+            if len(parts) < 4:
+                print(f"Warning: Skipping malformed line in '{filepath}': '{lines[i].strip()}'")
+                continue # Skip malformed lines
+
+            try:
+                atom_names.append(parts[0])
+                coords.append([float(parts[1]), float(parts[2]), float(parts[3])])
+            except ValueError:
+                print(f"Warning: Skipping line with non-numeric coordinates in '{filepath}': '{lines[i].strip()}'")
+                continue # Skip lines with non-numeric coordinates
+
+    if len(coords) != num_atoms:
+         raise ValueError(f"Number of successfully parsed atom lines ({len(coords)}) does not match declared number of atoms ({num_atoms}) in '{filepath}'.")
+
+    return atom_names, np.array(coords)
+
+
+def write_xyz(elements: list, xyz: list, output_filepath: str):
+    """ Function that creates an XYZ-formatted file.
+
+        Args:
+            elements (list of strings): elements in the molecule
+            xyz (nested list of floats): xyz coordinates for each element
+            output_filepath: name of the output file to be created
+
+        Returns:
+            output_filepath (file): XYZ-formatted structure file
+
+        Library requirement:
+            copy
+    """
+    if not isinstance(elements, list):
+        raise TypeError(f'The value for elements ({elements}) is not a list.')
+    elif not isinstance(xyz, list):
+        raise TypeError(f'The value for xyz ({xyz}) is not a list.')
+    elif not isinstance(output_filepath, str):
+        raise TypeError(f'The value for output_filepath ({output_filepath}) is not a string.')
+    else:
+        natoms = len(elements)
+        elem_xyz = copy.deepcopy(xyz)
+        for index in range(0, len(elem_xyz)):
+            elem_xyz[index].insert(0, elements[index])
+
+        with open(output_filepath, 'wt') as out:
+            out.write(f'{natoms}\n\n')
+            for atom_line in elem_xyz:
+                out.write(f'{" ".join(map(str, atom_line))}\n')
 
 
 def translate_point_along_vector(vector: np.ndarray,

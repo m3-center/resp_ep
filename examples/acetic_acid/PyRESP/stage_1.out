@@ -1,0 +1,134 @@
+
+ -----------------------------------------------
+              Py_RESP Version 1.0
+ -----------------------------------------------
+  acetic acid
+ -----------------------------------------------
+
+ ------------------
+ Control Parameters
+ ------------------
+ nmol        = 1   iqopt       = 1
+ ihfree      = 1   irstrnt     = 1
+ ioutopt     = 1   ireornt     = 0
+ iquad       = 1   qwt         = 0.00050000
+
+ --------------------
+ Molecule Information
+ --------------------
+ Single-molecule run
+
+ Molecule 1 weight:     1.000 
+ Molecule 1 name:  acetic_acid
+ Total charge (ich):  0
+ Number of centers:  8
+    1    6    0
+    2    1    0
+    3    1    0
+    4    1    0
+    5    6    0
+    6    8    0
+    7    1    0
+    8    8    0
+
+ -----------------------------
+ Atom Ivary Information
+ -----------------------------
+    6    0
+    1    0
+    1    0
+    1    0
+    6    0
+    8    0
+    1    0
+    8    0
+
+ -------------------------
+ Input Information Summary
+ -------------------------
+ Total number of atoms      =    8
+ Weight factor on initial charge restraints=  0.000500
+ There are  1 charge constraints
+
+ --------------------------------------
+ Atomic and ESP Coordinates Information
+ --------------------------------------
+ Reading esp's for molecule   1
+ total number of atoms      =     8
+ total number of esp points =   534
+
+ center       X               Y               Z
+    1   2.7410740E+00  -1.2526866E-01   0.0000000E+00
+    2   3.3168778E+00  -1.1879950E+00  -1.6535131E+00
+    3   3.3168778E+00  -1.1879950E+00   1.6535131E+00
+    4   3.6315480E+00   1.7099356E+00   0.0000000E+00
+    5  -7.9994412E-02   1.8612627E-01   0.0000000E+00
+    6  -1.2673414E+00  -2.0337405E+00   0.0000000E+00
+    7  -3.0393837E+00  -1.7199645E+00   0.0000000E+00
+    8  -1.1844022E+00   2.1384237E+00   0.0000000E+00
+
+
+ ------------------------
+ Optimization Information
+ ------------------------
+ iqopt=1, all q0 values will be set to 0
+
+ Number of unique UNfrozen charge centers =     8
+
+ Non-linear optimization requested.
+  qchnge =    1.6677144808E-01
+  qchnge =    9.6351208840E-03
+  qchnge =    2.1932413789E-03
+  qchnge =    5.7560717828E-04
+  qchnge =    1.5642591454E-04
+  qchnge =    4.2906049103E-05
+  qchnge =    1.1798465943E-05
+  qchnge =    3.2466364200E-06
+  qchnge =    8.9356169741E-07
+
+ Convergence in    8 iterations
+
+ -----------------------
+ Fitting Results Summary
+ -----------------------
+ molecule 1:  acetic_acid
+
+          Point Charges Before & After Optimization
+ atm.no   element.no   q(init)        q(opt)     ivary    d(rstr)/dq
+    1         6        0.000000     -0.303628      0       0.001564
+    2         1        0.000000      0.106576      0       0.000000
+    3         1        0.000000      0.106576      0       0.000000
+    4         1        0.000000      0.090415      0       0.000000
+    5         6        0.000000      0.772010      0       0.000642
+    6         8        0.000000     -0.629969      0       0.000784
+    7         1        0.000000      0.433655      0       0.000000
+    8         8        0.000000     -0.575634      0       0.000856
+
+ Sum over the calculated charges:     -0.000
+
+ --------------------------
+ Fitting Statistics Summary
+ --------------------------
+ The initial sum of squares  (ssvpot = sum_i(espi**2))          1.3101266E-01
+ The residual sum of squares (RSS = sum_i((espi-espclci)**2))   9.7045188E-04
+ The root-mean-squared error (RMSE = sqrt(RSS/N))               1.3480822E-03
+ The relative RMSE           (RRMSE = sqrt(RSS/ssvpot))         8.6065753E-02
+
+ ---------------------------
+ Molecular Multipole Summary
+ ---------------------------
+ Dipole Moments (Debye):
+ #MOL         D          Dx         Dy         Dz
+   1        1.73745    0.77129   -1.55687   -0.00000
+
+ Traceless Quadrupole Moments (Debye*Angst.):
+ #MOL          X          Y          Z
+   1    X    4.34029
+        Y    2.57646   -4.82704
+        Z   -0.00000    0.00000    0.48675
+
+ Traceless Quadrupole Moments in Principal Axes (Debye*Angst.):
+ #MOL          X          Y          Z
+   1    X    5.01478
+        Y    0.00000    0.48675
+        Z    0.00000    0.00000   -5.50152
