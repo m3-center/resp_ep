@@ -165,7 +165,7 @@ def restraint(q: np.ndarray, A_unrestrained: np.ndarray,
             q              : charges
             A_unrestrained : unrestrained A matrix
             resp_a         : restraint scale a
-            resp_b         : restraint parabola tightness b
+            resp_b         : restraint hyperbola tightness b
             ihfree         : if hydrogens are excluded or included in restraint
             symbols        : element symbols
             num_conformers : the number of conformers
@@ -221,7 +221,7 @@ def iterate(q: np.ndarray, A_unrestrained: np.ndarray, B: np.ndarray,
             A_unrestrained : unrestrained A matrix
             B              : matrix B (i.e., the QM target values)
             resp_a         : restraint scale a
-            resp_b         : restraint parabola tightness b
+            resp_b         : restraint hyperbola tightness b
             toler          : tolerance for charges in the fitting
             max_it         : maximum iteration number
             num_conformers : number of conformers
